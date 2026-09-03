@@ -29,7 +29,7 @@ public class RaceDemo {
             int actual = runOneRound();
             int lost = EXPECTED - actual;
 
-            if (lost != 0) {
+            if (lost != 0) {    
                 wrongRounds++;
             }
             if (lost > worst) {
